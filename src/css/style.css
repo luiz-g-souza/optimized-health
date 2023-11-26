@@ -169,10 +169,21 @@ section{
 .informacoes h4, .informacoes ul, .informacoes li{
     margin-bottom: 1rem;
 }
+
 .informacoes .valor{
+    margin-bottom: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 0;
+}
+
+
+.informacoes .valor, .valor span {
     font-family: 'Calibri';
     font-weight: bold;
-    margin-bottom: 2rem;
+    
 }
 
 .contrate a{
